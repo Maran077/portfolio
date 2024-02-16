@@ -36,13 +36,13 @@ Highlight the key features of your website. For example:
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/your-username/your-personal-website.git
+   git clone https://github.com/Maran077/portfolio
 ```
 
 Change into the project directory:
 
 ```bash
-cd your-personal-website
+cd portfolio
 ```
 
 ## Install dependencies:
