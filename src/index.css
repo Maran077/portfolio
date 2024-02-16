@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+svg {
+  transition: all 0.001s ease-in;
+}
+* {
+  transition: all 0.01s ease-in;
+}
+
+/* html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+section {
+  scroll-snap-align:center ;
+} */
