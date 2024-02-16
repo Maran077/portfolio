@@ -73,7 +73,7 @@ function CertificationSection({ theme }: Props) {
         <h1 className={`text-[48px] text-${color} font-sans font-[300]`}>
           My <span className={`text-[${themeColor}]`}>Achivement</span>
         </h1>
-        <ul className="flex flex-wrap gap-3">
+        <ul className="flex flex-wrap gap-3 self-center">
           {certificates.map((certificate) => (
             <li className="flex flex-col gap-3" key={certificate.courseName}>
               <img
