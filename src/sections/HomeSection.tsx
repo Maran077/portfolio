@@ -33,8 +33,8 @@ function HomeSection({ theme }: props) {
           className={`text-[58px] text-${color} font-sans font-[300] leading-[1.17]`}
         >
           Hi there! Meet
-          <span className={`text-[${themeColor}]`}> Sugumaran </span>, Your Full
-          Stack MERN Developer
+          <span className={`text-[${themeColor}]`}> Sugumaran </span>,
+          <span className="text-[48px]">Your Full Stack MERN Developer</span>
         </h1>
         <p className="pt-2 text-[16px] font-[400] text-gray-600">
           Passionate about my work, I bring creativity and functionality

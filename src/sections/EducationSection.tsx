@@ -43,7 +43,7 @@ function EducationSection({ theme }: Props) {
         <TimelineItem
           year="2019 - 2023"
           title="B.E Mechanical engineering"
-          subtitle="Dhanalakshmi Srinivasan Colloge of Engineering"
+          subtitle="Dhanalakshmi Srinivasan College of Engineering"
           color={color}
           themeColor={themeColor}
         />

@@ -43,7 +43,7 @@ const certificates: CertificateType[] = [
     path: DynamicAppicationImage,
   },
   {
-    courseName: "SqlLite",
+    courseName: "Sql lite",
     link: "https://certificates.ccbp.in/intensive/introduction-to-databases?id=FXVFMWMLOQ",
     path: SqlLiteImage,
   },

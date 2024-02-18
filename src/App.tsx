@@ -32,7 +32,7 @@ export const variants = {
 
 function App() {
   const [theme, setTheme] = useState<Theme>({
-    themeColor: "#1338F3",
+    themeColor: "#28E98C",
     backGroundColor: "black",
     color: "white",
   });

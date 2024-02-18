@@ -36,7 +36,7 @@ function ProfileSection({ theme }: Props) {
     >
       <div className={`flex w-full items-center justify-between text-${color}`}>
         <h1 className="text-4xl ">Maran</h1>
-        <p>Mernstack devloper</p>
+        <p className="-mb-[13px]">Mernstack devloper</p>
       </div>
       <div className="flex flex-col gap-5">
         <img

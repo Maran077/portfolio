@@ -25,10 +25,12 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
         className={`absolute left-[-2.8px] top-3 z-10 h-4 w-4 -translate-y-1/2 transform rounded-full bg-gray-800`}
       ></div>
       <div className={`ps-7 text-gray-400 hover:text-[${themeColor}]`}>
-        <dt className={`relative z-0 mb-2 text-xl font-bold`}>{year}</dt>
+        <dt className={`relative z-0 mb-2 text-2xl font-bold`}>{year}</dt>
         <dd className="ml-5">
           <div className="mb-2">
-            <div className={`font-semibold text-${color}`}>{title}</div>
+            <div className={`font-semibold text-${color} text-[20px]`}>
+              {title}
+            </div>
             <div className="text-gray-400">{subtitle}</div>
           </div>
           <p className="text-gray-500">{description}</p>

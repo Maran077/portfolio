@@ -27,7 +27,7 @@ const projects: ProjectsType = [
   {
     id: 1,
     name: "Smart shopping",
-    image:SmartShoppingImage,
+    image: SmartShoppingImage,
     preview: "https://smart-shopping-ju2.netlify.app/",
     gitHub: "https://github.com/Maran077/amazonClone-client",
     tech: ["MERN", "Redux", "React-Query"],
@@ -51,7 +51,7 @@ const projects: ProjectsType = [
   {
     id: 4,
     name: "Match Game",
-    image:MatchGameImage,
+    image: MatchGameImage,
     preview: "https://matchgame89.ccbp.tech/",
     gitHub: "https://github.com/Maran077/Match-Game",
     tech: ["React", "Html", "Css"],
@@ -87,7 +87,7 @@ function ProjectSection({ theme }: props) {
               key={project.id}
               className={`flex flex-col gap-3 rounded-xl border-2 p-5 border-${color} hover:border-[${themeColor}]`}
             >
-               <img
+              <img
                 className="w-[200px]"
                 src={project.image}
                 alt={project.name}

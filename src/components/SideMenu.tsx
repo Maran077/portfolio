@@ -44,7 +44,7 @@ const menues: MenuType = [
         className={menuItemStyle}
       >
         <MdContacts size={sideMenuIconSize} />
-        <p>Conatct</p>
+        <p>Contact</p>
       </Link>
     ),
   },
