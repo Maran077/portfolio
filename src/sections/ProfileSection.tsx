@@ -4,6 +4,7 @@ import { GiStaticWaves } from "react-icons/gi";
 import { Theme } from "../App";
 import { Element } from "react-scroll";
 import ProfileImage from "../assets/profile.jpg";
+import Resume from "../assets/resume.pdf";
 type Props = {
   theme: Theme;
 };
@@ -13,10 +14,10 @@ function ProfileSection({ theme }: Props) {
   const style: string = `text-2xl p-2 rounded-full box-content border-2 border-gray-400 hover:border-[${themeColor}] text-gray-400 hover:text-[${themeColor}]`;
 
   const handleDownload = () => {
-    const fileUrl = "../assets/resume.pdf";
+    const fileUrl = Resume;
     const link = document.createElement("a");
     link.href = fileUrl;
-    link.download = "resume.pdf";
+    link.download = "Sugumaran.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
