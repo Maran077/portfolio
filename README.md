@@ -1,6 +1,6 @@
 # My Personal Website
 
-Welcome to my personal website! This project was built using React, Tailwind CSS, and Framer Motion.
+Welcome to my personal website! This project was built using Typescript , React, Tailwind CSS, and Framer Motion.
 
 ## Table of Contents
 
